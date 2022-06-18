@@ -26,8 +26,8 @@ for row_count in range(research_df.shape[0]):
         sleep_milliseconds=0,  # defaults to 0
         lang='pl',
         country='PL',
-        sort=Sort.MOST_RELEVANT,  # defaults to Sort.MOST_RELEVANT
-        filter_score_with=5  # defaults to None(means all score)
+        sort=Sort.MOST_RELEVANT,
+        filter_score_with=None
     )
 
     user_comments_pl = []
